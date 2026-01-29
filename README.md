@@ -1,44 +1,39 @@
-# rick-morty-app
+# Rick and Morty App
 
-This template should help get you started developing with Vue 3 in Vite.
+A web application for exploring characters, episodes, and locations from the Rick and Morty universe. Built with Vue.js and powered by [The Rick and Morty API](https://rickandmortyapi.com/).
 
-## Recommended IDE Setup
+## Features
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Browse and search characters from the series
+- View detailed character information including status, species, and origin
+- Explore episodes and locations
+- Responsive design for mobile and desktop
+- Fast and intuitive user interface
 
-## Recommended Browser Setup
+## Tech Stack
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- **Frontend**: Vue.js 3
+- **API**: The Rick and Morty API
+- **Styling**: CSS3
 
-## Customize configuration
+## Getting Started
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### Prerequisites
 
-## Project Setup
+- Node.js (v14 or higher)
+- npm or yarn
 
-```sh
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/rickandmorty-app.git
+
+# Navigate to project directory
+cd rickandmorty-app
+
+# Install dependencies
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Run development server
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
